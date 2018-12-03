@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<title>GitFetch</title>
+</head>
+<body>
+	<div class="heading">
+		<h1>GitFetch</h1>
+		<p>Check out the repos, followers and more, <br>just by entering the username! 
+	</div>
+	<div class="box"></div>
+	<img class="boximg" src="img/avtar.png">
+	<button id="myBtn" class="btn">Try it</button>
+
+	<!-- modal -->
+
+	<div id="myModal" class="modal">
+		<div class="modal-content">
+			<span class="close">&times</span>
+			<div class="row">
+				<div class="col">
+					<img src="img/avtar.jpg" height="100%" width="100%">
+				</div>
+				<div class="col" style="background-color: white">
+					<h1>Gitfetch</h1>
+					<h2>Enter Username to search </h2>
+					<input id="searchUser" type="text" name="search" placeholder="Username">
+					<button id="searchBtn" class="submit">Search</button>
+				</div>
+			</div>
+		</div>
+	</div>
+
+<!-- profile card -->
+
+	 	<div id="main">
+            <div id="image">
+                <img id="avtar" src=""/>
+                <div id="wave"></div>
+                <div id="wave2"></div>
+            </div>
+            
+            <div id="info">
+                 <div id="viewMore"><img src="Close.png" width="65%"/></div>
+                <div id="name"></div>
+                <div id="status"></div>
+                <div id="social">
+                   
+                </div>
+            </div>    
+        </div>
+
+	<script src="js/style.js"></script>
+</body>
+</html>

@@ -50,7 +50,7 @@ const client_secret = "862be6a5c82e05c5d0604e5f03d271b0c67db31b";
 
 
 const fetchUsers = async (user) => {
-	const api_call = await fetch(`http://api.github.com/users/${user}?client_id = ${client_id} & client_secret = ${client_secret} `);
+	const api_call = await fetch(`https://api.github.com/users/${user}?client_id = ${client_id} & client_secret = ${client_secret} `);
 	const data = await api_call.json();
 	console.log(data);
 	return {data}
